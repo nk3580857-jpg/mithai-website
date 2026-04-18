@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSP Sweets</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #fff8f0;
+        }
+
+        header {
+            background: #ff6f00;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ffa000;
+        }
+
+        nav a {
+            padding: 14px 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: #ff6f00;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: url('https://images.unsplash.com/photo-1604908176997-4314c3a06c9d') no-repeat center/cover;
+            color: white;
+        }
+
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: green;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>CSP Sweets 🍬</h1>
+    <p>Fresh & Delicious Mithai Delivered</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>Welcome to CSP Sweets</h1>
+    <p>Best quality mithai at your doorstep</p>
+</div>
+
+<div class="section" id="products">
+    <h2>Our Products</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1625944198273-7d2e8c6a63c9" alt="">
+            <h3>Laddu</h3>
+            <p>₹250/kg</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1605478527483-7e1a81f0cbb3" alt="">
+            <h3>Barfi</h3>
+            <p>₹300/kg</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1625944239155-7e7a7e567c90" alt="">
+            <h3>Rasgulla</h3>
+            <p>₹200/kg</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="section" id="about">
+    <h2>About Us</h2>
+    <p>We provide fresh, hygienic and tasty sweets for all occasions like weddings, birthdays and festivals.</p>
+</div>
+
+<div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: 9798044379</p>
+    <p>📍 Location: Bauri kashichak, Nawada</p>
+</div>
+
+<footer>
+    <p>© 2026 CSP Sweets | All Rights Reserved</p>
+</footer>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp" href="" target="_blank">💬</a>
+
+</body>
+</html>
